@@ -1,0 +1,22 @@
+# POST http://localhost:3000/reservation
+# content-type:application/json
+
+{
+  "name": "test",
+  "dob":"ttt",
+  "contactperson":"contactperson",
+  "email":"email@gmail.com",
+  "phoneNumber":222222222,
+  "address":"address",
+  "country":"country",
+  "depatureDateNTime":"depatureDateNTime",
+  "returnDateNTime":"returnDateNTime",
+  "depatureFrom":"depatureFrom",
+  "depatureCity":"depatureCity",
+  "destination":"destination",
+  "destinationCity":"destinationCity",
+  "airline":"airline",
+  "fare":"fare"
+}
+
+GET http://localhost:3000/reservation
